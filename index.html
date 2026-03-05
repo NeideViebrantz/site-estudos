@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Neide</h1>
+
+        <nav> <!-- Seção de navegação do site -->
+            <ul> <!-- Lista não ordenada para links do nosso menu -->
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#projeto">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="https://google.com.br" target="_blank">Google</a></li>
+                <!-- <li>Sobre mim</li> -->
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <body>
+        <div class="display-block">Display block</div>
+        <span class="display-inline">Display inline</span><span class="display-inline">Display inline</span>
+        <div class="display-inline-block">Display inline-block</div>
+    </body>
+
+    <body>
+        <main class="container">
+            <div class="box" id="box1">Div 1</div>
+            <div class="box" id="box2">Div 2</div>
+            <div class="box" id="box3">DIV 3</div>
+        </main>
+    </body>
+
+
+
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+
+        <img src="https://scontent.fbnu9-1.fna.fbcdn.net/v/t39.30808-1/280761061_10158941893553753_6951547605428940417_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=111&ccb=1-7&_nc_sid=1d2534&_nc_ohc=_i7cJW-9GXgQ7kNvwFLHucP&_nc_oc=Adn6uQxCKamAmkqO0-yJivYknewVbTeaClXgHFCmAENqvHsO6L6q-swkBsWPz4LzKK6pbSaF-LGFAmNnfZ_RkOwm&_nc_zt=24&_nc_ht=scontent.fbnu9-1.fna&_nc_gid=tX-iRmD40H8s7-Y6Zf7J5w&_nc_ss=8&oh=00_Afs7LkhRW8UnO1OtxKqh6mR6CSIw3vZwkVbfcHF8AXKQ3Q&oe=69A9E4B3
+        " alt="Imagem de foto de perfil" title="Imagem de perfil de Neide">
+
+        <article>
+
+            <p id="paragrafo1">
+                Olá! Eu sou a Neide, sou uma desenvolvedora web. Estou iniciando nessa área.
+                Trabalho atualmente como esteticista e busco me atualizar na área de tecnologia
+                para migrar de profissão ou quem sabe associar as duas as quais me identifico.
+
+            </p>
+
+            <p class="block">Parágrafo block</p>
+            <p class="in-line">Parágrafo in-line</p>
+            <p>Parágrafo in-line</p>
+
+
+        </article>
+
+        <aside>
+
+            <h3>Habilidades</h3>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+
+        </aside>
+
+    </section>
+
+    <section id="projeto">
+        <h2>Projetos</h2>
+
+        <article>
+            <h3>Portifólio</h3>
+
+            <p>
+                Este foi o primeiro site que desenvolvi estudando front-end. Testando atualização
+            </p>
+
+        </article>
+
+
+        <section>
+
+        </section id="habilidades">
+        <h2>Habilidades e tecnologias</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Tecnologia</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Iniciante</td>
+                    <td>Capaz de construir estruturas de páginas web semânticas e responsivas.</td>
+                </tr>
+
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediário</td>
+                    <td>Experiência com flexbox, grid e animações CSS.</td>
+                </tr>
+
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                    <td>Desenvolvimento de scripts do lado do cliente para interações.</td>
+                </tr>
+
+
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <footer>
+        <p>Direitos reservados a Neide</p>
+
+        <section id="contato">
+
+            <h2>Contato</h2>
+            <p>Tem um projeto em mente? Entre em contato.
+
+            <form action="">
+
+                <label for="Nome">Nome: </label>
+                <input type="text" id="Nome" name="Nome" required> <br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required> <br>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone"><br>
+
+                <label for="assunto">Assunto:</label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <br>
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea> <br>
+
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">Deseja receber minha newsletter? Fique por dentro.</label>
+
+                <br>
+
+                <input type="submit" value="Enviar mensagem">
+
+            </form>
+
+            <address>
+                E-mail: <a href="mailto:neideviebrantz@hotmail.com">neideviebrantz@hotmail.com</a> <br>
+
+                Telefone: <a href="tel:+5547991566799">+5547991566799</a>
+            </address>
+            </p>
+        </section>
+
+
+
+    </footer>
+</body>
+
+</html>
